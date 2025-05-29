@@ -1,0 +1,36 @@
+body{
+  background-color: aqua;
+}
+
+
+.inner{
+  width: 1200px;
+  margin: auto;
+}
+header{
+  height: 100px;
+  background-color: red;
+
+}
+
+.slide{
+  height: 300px;
+  background-color: blue;
+}
+
+.contents{
+  height: 200px;
+  display: flex;
+  background: yellow;
+}
+.contents article{
+  width:400px;
+}
+.contents .gall{
+  background-color: blueviolet;
+}
+
+footer{
+  background-color: bisque;
+  height: 100px;
+}
