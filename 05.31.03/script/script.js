@@ -22,18 +22,19 @@ function slide(){
   $(".slide ul").animate({marginLeft:-1200 * i},1000)
 }
 
+
 setInterval(slide,3000)
 
 
 
 
-//팝업창 
 $(".pop").click(function(){
   $(".popup").show();
-  return false;
-
-
-
+    return false;
 })
+$(".close button").click(function(){
+  $(".popup").hide();
+})
+
 
 })
