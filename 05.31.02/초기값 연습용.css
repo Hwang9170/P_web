@@ -1,0 +1,146 @@
+
+/* 전체 요소 기본값 초기화 */
+* {
+	margin: 0; /* 바깥 여백 제거 */
+	padding: 0; /* 안쪽 여백 제거 */
+	box-sizing: border-box; /* padding과 border를 포함한 너비 계산 방식으로 설정 */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* 리스트 기본 스타일 제거 */
+li {
+	list-style: none; /* 리스트의 기본 불릿 스타일 제거 */
+}
+
+li{
+  list-style: none;
+}
+
+
+/* 링크 스타일 초기화 */
+a {
+	text-decoration: none; /* 링크 밑줄 제거 */
+	color: inherit; /* 부모 요소의 글자색을 상속 */
+}
+
+a{
+  text-decoration: none;
+  color: inherit; /* 부모 요소의 글자색을 상속 */
+}
+
+/* 이미지 관련 기본 스타일 */
+img {
+	vertical-align: top; /* 이미지 아래 여백 제거 */
+	max-width: 100%; /* 이미지가 부모 요소 너비를 넘지 않도록 제한 */
+}
+
+img{
+  vertical-align: top;
+  max-width: 100%; /* 이미지가 부모 요소 너비를 넘지 않도록 제한 */
+}
+
+/* 버튼 기본 커서 설정 */
+button {
+	cursor: pointer; /* 마우스 커서를 손가락 모양으로 변경 */
+}
+
+button{
+  cursor: pointer;
+}
+
+/* 전체 페이지 기본 설정 */
+body {
+	background: #fff; /* 전체 배경색 흰색으로 설정 */
+	color: #333; /* 기본 글자색 진한 회색으로 설정 */
+}
+
+body{
+  background: #fff;
+  color: #333;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  vertical-align: top;
+  max-width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+body{
+  background: #fff;
+  color: #333;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  vertical-align: top;
+  max-width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+
+body{
+  background: #fff;
+  color: #333;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  vertical-align: top;
+  max-width: 100%;
+}
+button{cursor: pointer;}
+body{
+  background:#fff;
+  color: #333;
+}
