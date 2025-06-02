@@ -1,0 +1,50 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*이거 까먹음*/
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  vertical-align: top;
+  max-width: 100%;
+}
+button{
+  cursor: pointer;
+}
+body{
+  background: #fff;
+  color: #333;
+}
+
+.wrap{
+  height: 800px;
+}
+.top{
+  display: flex;
+}
+header{
+  width: 200px;
+  height: 700px;
+  background: red;
+}
+.contents{
+  width: 400px;
+  height: 700px;
+  background: green;
+}
+.slide{
+  width: calc(100% - 200px - 400px);
+  height: 700px;
+  background-color: chartreuse;
+}
+footer{
+  height: 100px;
+  background: blue;
+}
