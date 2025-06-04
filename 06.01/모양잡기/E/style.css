@@ -32,18 +32,82 @@ body{
 header{
   width: 200px;
   height: 700px;
-  background: red;
+background: yellow;
+}
+header h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+nav{
+  position: relative;
+}
+nav>ul>li>a{
+  display: block;
+  background: pink;
+  padding: 10px 20px;
+  text-align: center;
+  border: 1px solid #9acd84;
+}
+nav>ul>li:hover>a{
+  background: blue;
+  color: #fff;
+}
+.sub{
+  position: absolute;
+  left: 190px;
+  top: -10px;
+  z-index: 10;
+  width: 150px;
+  height: 250px;
+  background: #fff;
+  display: none;
+}
+.sub li a{
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  background: #fff;
+  color: #333;
+}
+.sub li a:hover{
+  background: #333;
+  color: #fff;
 }
 .contents{
   width: 400px;
   height: 700px;
   background: green;
 }
+
 .slide{
   width: calc(100% - 200px - 400px);
   height: 700px;
-  background-color: chartreuse;
+  overflow: hidden;
 }
+
+.slide ul li{
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+.slide ul li a{
+  display: block;
+  height: 100%;
+}
+.slide ul li.s1{
+  background: url(/05.31.03/images/s1.jpg)no-repeat center/cover;
+}
+.slide ul li.s2{
+  background: url(/05.31.03/images/s2.jpg)no-repeat center/cover;
+}
+.slide ul li.s3{
+  background: url(/05.31.03/images/s3.jpg)no-repeat center/cover;
+}
+
+
 footer{
   height: 100px;
   background: blue;

@@ -33,15 +33,92 @@ header .inner{
   height: 100px;
   background: yellow;
   margin: auto;
+  background: #003366;
+  padding-top: 30px;
+  position: relative;
 }
+
+nav{
+  position: absolute;
+top: 50px;
+right: 0;
+z-index: 10;
+}
+nav>ul{
+  display: flex;}
+nav>ul>li>a{
+  display: block;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+nav>ul>li:hover>a{
+  background: yellow;
+  color: black;
+}
+
+.sub{
+  display: none;
+}
+.sub a{
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.sub a:hover{
+  background: #003366;
+  color: #fff;
+}
+.menuBg{
+  width: 100%;
+  height: 155px;
+  background:rgba(0, 0, 0, 0.8);
+  top: 100px;
+  left: 0;
+  position: absolute;
+  z-index: 5;
+  display: none;
+}
+
 
 
 .slide{
   width: 1200px;
   height: 300px;
-  background: red;
   margin: auto;
+  position: relative;
 }
+
+.slide ul li{
+  width: 1200px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.slide ul li a{
+  display: block;
+  height: 100%;
+}
+.slide ul li.s1{
+  background: url(/05.31.03/images/s1.jpg)no-repeat center/cover;
+  display: block;
+
+}
+.slide ul li.s2{
+  background: url(/05.31.03/images/s2.jpg)no-repeat center/cover;
+}
+
+.slide ul li.s3{
+  background: url(/05.31.03/images/s3.jpg)no-repeat center/cover;
+}
+
 
 .contents{
   width: 1200px;

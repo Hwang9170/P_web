@@ -30,15 +30,89 @@ display: flex;
 }
 header{
   width: 200px;
-  background: yellow;
+  background: #369;
+  padding: 80px 10px;
 }
+
+nav{
+  margin-top: 50px;
+  position: relative;
+}
+nav>ul>li>a{
+  display: block;
+  border:1px solid #ffeb3b;
+  padding: 10px 0;
+  text-align: center;  
+  color: #ffeb3b;
+  border-bottom: 0;
+}
+nav>ul>li:last-child>a{
+  border-bottom: 1px solid #ffeb3b;
+}
+nav>ul>li:hover>a{
+  background: #ffeb3b;
+  color: black;
+}
+.sub{
+  position: absolute;
+  left: 180px;
+  top:10px;
+  z-index: 9;
+  width: 150px;
+  height: 250px;
+  background: #ffeb3b;
+  display: none;
+}
+.sub li a{
+  display: block;
+  padding: 10px 0;
+  color: black;
+  text-align: center;
+}
+
+.sub li>a:hover{
+  background: #369;
+  color: #fff;
+}
+
+
+
+
 .contents{
   width: 800px;
 
 }
 .slide{
   height: 350px;
-  background: red;
+  overflow: hidden;
+}
+
+.slide ul li{
+  width: 800px;
+  height: 350px;
+  position: relative;
+}
+
+.slide ul li a{
+  display: block;
+  width: 100%;
+}
+
+.slide ul li.s1{
+  background: url(/05.31.03/images/s1.jpg)no-repeat center/cover;
+}
+.slide ul li.s2{
+  background: url(/05.31.03/images/s2.jpg)no-repeat center/cover;
+}
+.slide ul li.s3{
+  background: url(/05.31.03/images/s3.jpg)no-repeat center/cover;
+}
+
+.slide h2{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: #369;
 }
 .con{
   height: 200px;

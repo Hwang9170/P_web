@@ -33,14 +33,64 @@ body{
 }
 header{
   width: 250px;
-  background: red;
+  background: skyblue;
 }
+
+nav>ul>li>a{
+  display: block;
+  background: yellow;
+  color: #333;
+}
+nav>ul>li:hover>a{
+  background: pink;
+  color: blue;
+}
+
+.sub{
+  display: none;
+}
+.sub li a{
+  display: block;
+  background: #fff;}
+.sub>li>a:hover{
+    background: red;
+    color: #fff;
+  }
+
+
+
+
+
 .contents{
   width: calc(100% - 250px);
 }
 .slide{
   height: 400px;
-  background: yellow;
+  overflow: hidden;
+}
+.slide ul{
+  width: 300%;
+  display: flex;
+}
+.slide ul li{
+  width: calc(100% / 3);
+  height: 400px;
+}
+.slide ul li a{
+  display: block;
+  height: 100%;
+}
+
+
+
+.slide ul li.s1{
+  background: url(/05.31.03/images/s1.jpg) no-repeat center/cover;
+}
+.slide ul li.s2{
+  background: url(/05.31.03/images/s2.jpg) no-repeat center/cover;
+}
+.slide ul li.s3{
+  background: url(/05.31.03/images/s3.jpg) no-repeat center/cover;
 }
 
 .banner{

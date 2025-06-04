@@ -17,7 +17,7 @@ img{
   max-width: 100%;
 }
 button{
-  cursor: pointer; /*이거 까먹음 */
+  cursor: pointer;
 }
 body{
   background: #fff;
