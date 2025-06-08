@@ -18,9 +18,22 @@ $ (function(){
     }else{
 
     i =0;}
-  $(".slide ul li").fadeOut();
+  $(".slide ul li").fadeOut(); 
   $(".slide ul li").eq(i).fadeIn();
   }
 
   setInterval(slide,3000);
+
+  let t;
+  $(".tabmenu>li").click(function(){
+$(".tabmenu>li").removeClass("on");
+$(this).addClass("on");
+  t = $(this).index();
+$(".tabcon").hide();
+$(".tabcon").eq(t).show();
+return false;
+  })
+
+
+
 })

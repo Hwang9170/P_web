@@ -153,19 +153,19 @@ width: 400px;}
   padding: 5px;
   height: 140px;
 }
-.tebmenu{
+.tabmenu{
   display: flex;
 }
-.tebmenu>li{
+.tabmenu>li{
   width: 150px;
   background-color: #D3D3D3;
 }
-.tebmenu>li>h2>a{
+.tabmenu>li>h2>a{
   display: block;
   text-align: center;
   padding: 5px 0;
 }
-.tebmenu>li.on{
+.tabmenu>li.on{
   background-color: #003366;
   color: #fff;
 }

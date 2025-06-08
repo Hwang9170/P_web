@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+} 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+vertical-align: top;}
+
+button{
+  cursor: pointer;
+}
+body{
+  background: #fff;
+  color: #333;
+  position: relative;
+}
+
+.popup{
+  position:absolute;
+  top: 100px ;
+  left: 50%;
+  background: #fff;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border: 1px solid #333;
+  display: none;
+}
+
+.popup h1{
+  font-size: 20px;
+  margin: 20px 0;
+
+}
+.popup .closePopup {
+      text-align: right;
+    }

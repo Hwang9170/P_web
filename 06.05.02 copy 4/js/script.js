@@ -6,6 +6,9 @@ $(function(){
     $("nav>ul>li").mouseleave(function(){
     $(".sub").stop().fadeOut();
   })
+
+
+  
   let i =0;
   function slide(){
     if(i<2){
@@ -16,6 +19,9 @@ $(function(){
     $(".slide ul").animate({marginTop: -700 * i},1000);
   }
   setInterval(slide,3000);
+
+
+
   $(".pop").click(function(){
     $(".popup").show();
     return false;
